@@ -5,16 +5,14 @@ const CommentItem = props => {
   const {comment, onDelete} = props
   const {INPUT, TEXTAREA} = comment
   const Name = INPUT[0]
+
   const ondeleting = () => {
     onDelete()
   }
 
   return (
     <div className="commented-Card">
-      <h1>
-        <span>{Name}</span>
-        {INPUT}
-      </h1>
+      <h1>{INPUT}</h1>
       <p>{TEXTAREA}</p>
       <div className="likeDelete">
         <img

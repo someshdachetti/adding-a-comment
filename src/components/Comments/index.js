@@ -65,6 +65,10 @@ class Comments extends Component {
             <div className="writingComment">
               <h1>Comments</h1>
               <p>Say Somthing about 4.o technologies</p>
+              <img
+                src="https://assets.ccbp.in/frontend/react-js/comments-app/comments-img.png"
+                alt="comments"
+              />
               <input
                 type="text"
                 placeholder="your Name"
@@ -81,6 +85,17 @@ class Comments extends Component {
           </div>
           <p>{addComment.length} comment</p>
           <div className="commented-card">
+            <p>
+              {
+                initialContainerBackgroundClassNames[
+                  Math.ceil(
+                    Math.random() *
+                      initialContainerBackgroundClassNames.lenght -
+                      1,
+                  )
+                ]
+              }
+            </p>
             {addComment.map((each, index) => (
               <CommentItem
                 key={each.INPUT}
