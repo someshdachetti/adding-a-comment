@@ -1,0 +1,47 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.commented-Card {
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 18);
+  height: 20vh;
+  width: 55vw;
+  margin: 16px;
+}
+.likeDelete {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+span {
+  background-color: #f97316;
+  height: 220px;
+  width: 220px;
+  border-radius: 90%;
+}
